@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
-        android:text="Number 2"
+        android:text="Number 02"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_1" />
 
@@ -32,6 +32,7 @@
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:layout_marginTop="32dp"
+        android:backgroundTint="@color/btnPlus"
         android:text="@string/btn_Plus"
         android:textSize="60sp"
         app:layout_constraintEnd_toStartOf="@+id/btn_2"
@@ -43,6 +44,7 @@
         android:id="@+id/btn_2"
         android:layout_width="180dp"
         android:layout_height="180dp"
+        android:backgroundTint="@color/btnMinus"
         android:text="@string/btn_Minus"
         android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,6 +57,7 @@
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:layout_marginTop="32dp"
+        android:backgroundTint="@color/btnMultiply"
         android:text="@string/btn_Multiply"
         android:textSize="60sp"
         app:layout_constraintEnd_toStartOf="@+id/btn_4"
@@ -66,6 +69,7 @@
         android:id="@+id/btn_4"
         android:layout_width="180dp"
         android:layout_height="180dp"
+        android:backgroundTint="@color/btnDivide"
         android:text="@string/btn_Divide"
         android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,7 +85,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="23"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_1" />
 
@@ -93,7 +97,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
